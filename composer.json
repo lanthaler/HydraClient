@@ -1,0 +1,25 @@
+{
+    "name": "ml/hydra-client",
+    "description": "HydraClient",
+    "keywords": [ "Hydra", "JSON-LD", "jsonld", "Web API", "hypermedia" ],
+    "homepage": "http://www.markus-lanthaler.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Lanthaler",
+            "email": "mail@markus-lanthaler.com",
+            "homepage": "http://www.markus-lanthaler.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-json": "*",
+        "ml/json-ld": "@dev",
+        "guzzle/guzzle": "~3.1"
+    },
+    "autoload": {
+        "psr-0": { "ML\\HydraClient": "" }
+    },
+    "target-dir": "ML/HydraClient"
+}
